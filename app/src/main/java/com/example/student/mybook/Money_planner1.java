@@ -17,4 +17,9 @@ public class Money_planner1 extends AppCompatActivity {
         Intent intent = new Intent (Money_planner1.this,Money_planner2.class);
         startActivity(intent);
     }
+
+    public void myBooks(View view){
+        Intent intent = new Intent(Money_planner1.this, BooksMain.class);
+        startActivity(intent);
+    }
 }
