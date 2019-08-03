@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Category"></activity>
         <activity android:name=".Money_planner1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +25,7 @@
         <activity android:name=".Money_planner2" />
         <activity android:name=".plans" />
         <activity android:name=".book" />
-        <activity android:name=".Add_Plans"></activity>
+        <activity android:name=".Add_Plans" />
     </application>
 
 </manifest>
