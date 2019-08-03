@@ -205,7 +205,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="7dp"
         android:background="@color/colorPrimary"
         android:onClick="book"
         android:text="Add"

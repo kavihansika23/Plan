@@ -5,16 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class AddNewBook extends AppCompatActivity {
+public class UpdateBook extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_new_book);
+        setContentView(R.layout.activity_update_book);
     }
 
-    public void book(View view){
-        Intent intent = new Intent(AddNewBook.this, BooksMain.class);
+
+    public void updateBook(View view){
+        Intent intent = new Intent(UpdateBook.this, BooksMain.class);
         startActivity(intent);
     }
 }

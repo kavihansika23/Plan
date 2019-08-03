@@ -17,4 +17,9 @@ public class BooksMain extends AppCompatActivity {
         Intent intent = new Intent(BooksMain.this, AddNewBook.class);
         startActivity(intent);
     }
+
+    public void viewBook(View view){
+        Intent intent = new Intent(BooksMain.this, Book.class);
+        startActivity(intent);
+    }
 }
